@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Project</title>
+      <!-- CSS link -->
+      <link rel="stylesheet" href="style.css">
+       <!-- Bootstrap link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!--Google font's link-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+        <!-- Bootstrap's icon link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+</head>
+<body>
+    <header>
+  
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+        <div class="container-fluid cntner">
+          <h1 class="heading"> <a class="navbar-brand fs-4  fw-bold py-15" href="#" style="color:#bd8b17;">Infinite Grace</a> </h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home" style="color: #966b09;">Home</a>
+                <a class="nav-link active" href="#features">Features</a>
+                <a class="nav-link active" href="#reviews">Reviews</a>
+                <a class="nav-link active" href="#team">Team</a>
+                
+              </li>
+             <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bed</a></li>
+                      <li><a class="dropdown-item" href="#">Sofa</a></li>
+                      <li><a class="dropdown-item" href="#">Cabinet</a></li>
+                      <li><a class="dropdown-item" href="#">Chair and Seating</a></li>
+                      <li><a class="dropdown-item" href="#">Desks</a></li>
+                    </ul>
+                 </li>
+              
+           </ul>
+          
+           <div class="icons">
+            <div class="bi bi-cart-fill" id="cart-btn"></div>
+          </div>
+              <a href="#contact"><button class="btn btn-outline-dark fw-bold" type="submit" >Contact Us</button></a>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="carouselExampleCaptions home" id="home" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" id="home">
+        <div class="carousel-item active">
+          <img src="images/sofa_bg.jpg" class="d-block w-100" alt="...">
+          
+          <div class="carousel-caption">
+            
+         <form action="" class="search">
+              <input placeholder="Search..." id="searchbar" name="searchbar" type="text">
+              <i class="fa-solid fa-magnifying-glass glass"></i>
+         </form>
+         <h2>Your Imagination, our creation!</h2>
+         <h3>Elegant and Chic Furniture</h3>
+           
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption ">
+            <h5>Authentic Product</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, nobis magnam. Laborum enim itaque quasi impedit, reiciendis esse praesentium adipisci accusantium laboriosam nostrum suscipit, provident dicta earum asperiores alias natus?</p>
+            <p><a href="#" class="btn btn-warning mt3">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Amazing Exclusive Design</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, nobis magnam. Laborum enim itaque quasi impedit, reiciendis esse praesentium adipisci accusantium laboriosam nostrum suscipit, provident dicta earum asperiores alias natus?</p>
+            <p><a href="#" class="btn btn-warning mt3">Learn more</a></p>
+          </div>
+         
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <footer></footer>
+
+    <!-- Navigation Section-->
+
+    
+    <!-- about Section-->
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img">
+              <img src="images/img1.jpg" alt="" class="img-fluid" >
+            </div>
+          </div>
+           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+            <div class="about-text">
+              <h2>We provide best quality <br> Services Ever</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+                 est necessitatibus velit nulla non commodi earum, ducimus at natus voluptatibus sunt sit consequatur,
+                 incidunt aliquid! Sint, totam in. Dolor, tempora?</p>
+                 <a href="#" class="btn btn-warning">Learn More</a>
+            </div>
+           </div> 
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- features Section-->
+<section class="features" id="features">
+  <div class="container">
+    <h2>New Arrivals</h2>
+    <div class="row">
+
+
+      <div class="col-md-3">
+        <div class="product-top text-center">
+          <img src="images/img-2.jpg" width="300px">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Sofa</h3>
+            <h5> ৳. 49,500.</h5>
+          </div> 
+            
+      </div>
+
+
+      
+     
+      <div class="col-md-3">
+        <div class="product-top ">
+          <img src="images/img3.jpg">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Sofa</h3>
+            <h5> ৳. 49,500.</h5>
+          </div> 
+            
+      </div>
+
+      
+
+      
+      <div class="col-md-3">
+        <div class="product-top text-center">
+          <img src="images/img5.jpg" width="300px">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Sofa</h3>
+            <h5> ৳. 49,500.</h5>
+          </div> 
+            
+      </div>
+
+
+
+     
+      <div class="col-md-3">
+
+        <div class="product-top text-center">
+          <img src="images/img4.jpg" width="300px">
+          <div class="overlay">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Sofa</h3>
+            <h5> ৳. 49,500.</h5>
+          </div> 
+            
+      </div>
+
+
+    </div>
+
+
+
+    <div class="row">
+
+
+      <div class="col-md-3">
+        <div class="product-top2 text-center">
+          <img src="images/img6.jpg" width="300px">
+          <div class="overlay2">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Desktop Table <Table></Table></h3>
+            <h5>৳. 5,950 </h5>
+          </div> 
+            
+      </div>
+
+
+      
+     
+
+      <div class="col-md-3">
+        <div class="product-top2 text-center">
+          <img src="images/img7.jpg" width="300px">
+          <div class="overlay2">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Wardrobe</h3>
+            <h5>৳ 50,000</h5>
+          </div> 
+            
+      </div>
+
+
+      
+
+      
+      <div class="col-md-3">
+        <div class="product-top2 text-center">
+          <img src="images/img8.jpg" width="300px">
+          <div class="overlay2">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Table</h3>
+            <h5>৳ 4,000</h5>
+          </div>          
+      </div>
+
+
+
+     
+      <div class="col-md-3">
+        <div class="product-top2 text-center">
+          <img src="images/img9.jpg" width="300px">
+          <div class="overlay2">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+              <i class="bi bi-eye-fill"></i></button>
+              <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="bi bi-heart-fill"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to Card">
+                  <i class="bi bi-cart-check-fill"></i></i></button>
+               </div>
+          </div>
+            <div class="product-bottom text-center">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+            <h3>Study Table</h3>
+            <h5> ৳. 10,650 </h5>
+          </div>            
+      </div>
+
+
+    </div>
+
+
+
+    
+  </div>
+</section>
+
+
+     <!-- services Section-->
+     <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Build Your Sweet Home</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisi <br>cing elit nemo, expedita quasi reiciendis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="cart-title">Best Quality</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Consequuntur nam saepe ipsum, maxime facere iste aliquid quidem quod nostrum autem vero.
+                   Nobis ut molestias modi, voluptatum fugit quos reiciendis cum?</p>
+                   <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-slack"></i>
+                <h3 class="cart-title">Sustainability</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Consequuntur nam saepe ipsum, maxime facere iste aliquid quidem quod nostrum autem vero.
+                   Nobis ut molestias modi, voluptatum fugit quos reiciendis cum?</p>
+                   <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-playstation"></i>
+                <h3 class="cart-title">Integrity</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Consequuntur nam saepe ipsum, maxime facere iste aliquid quidem quod nostrum autem vero.
+                   Nobis ut molestias modi, voluptatum fugit quos reiciendis cum?</p>
+                   <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+     <!--portfolio section-->
+
+     
+     <section id="reviews" class="reviews section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Customer's Reviews</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisi <br>cing elit nemo, expedita quasi reiciendis.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="images/img10.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Fahad Khan</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+              </div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel, accusamus maxime reiciendis explicabo nesciunt ipsa deleniti debitis non,
+                   voluptas soluta corrupti voluptatem dolores assumenda sequi minus iusto. Inventore, rerum!</p>
+                  <button class="btn bg-warning text-dark">Learn More</button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="images/img11.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Imran Islam</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+              </div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel, accusamus maxime reiciendis explicabo nesciunt ipsa deleniti debitis non,
+                   voluptas soluta corrupti voluptatem dolores assumenda sequi minus iusto. Inventore, rerum!</p>
+                  <button class="btn bg-warning text-dark">Learn More</button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="images/img12.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Touhid Ahmed</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+              </div>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel, accusamus maxime reiciendis explicabo nesciunt ipsa deleniti debitis non,
+                   voluptas soluta corrupti voluptatem dolores assumenda sequi minus iusto. Inventore, rerum!</p>
+                  <button class="btn bg-warning text-dark">Learn More</button> 
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+     </section>
+
+
+     <!--team section-->
+     <section id="team" class="team section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Our Expert Team</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisi <br>cing elit nemo, expedita quasi reiciendis.</p>
+            </div>
+          </div>
+        </div>
+           
+
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img src="images/img13.jpg" alt="" class="img-fluid ">
+                <h3 class="card-title py-2">Kartik Roy</h3>
+                <p class="card-text">Founder.</p>
+
+                   <p class="socials">
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                   </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img src="images/img14.jpg" alt="" class="img-fluid ">
+                <h3 class="card-title py-2">Kartik Roy</h3>
+                <p class="card-text">Consaltant.</p>
+
+                   <p class="socials">
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                   </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img src="images/img15.jpg" alt="" class="img-fluid ">
+                <h3 class="card-title py-2">Kartik Roy</h3>
+                <p class="card-text">Business Manager.</p>
+
+                   <p class="socials">
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                   </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <img src="images/img16.jpg" alt="" class="img-fluid ">
+                <h3 class="card-title py-2">Kartik Roy</h3>
+                <p class="card-text">Marketing Manager.</p>
+
+                   <p class="socials">
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                   </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+     
+     <!--contact section-->
+     <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Contact Us</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisi <br>cing elit nemo, expedita quasi reiciendis.</p>
+            </div>
+          </div>
+        </div>
+           
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4">
+            <form action="#" class="bg-light p-4 m-auto">
+              <div class="row">
+
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text"class="form-control" required placeholder="Your full name">
+                  </div>
+                </div>
+  
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="email"class="form-control" required placeholder="Your email address">
+                  </div>
+                </div>
+  
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea  required class="form-control" placeholder="Your query here"></textarea>
+                  </div>
+                </div>
+  
+                 <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     
+     <!--footer section-->
+     <footer class="bg-dark p-2 text-center">
+      <div class="container">
+        <div class="text-white">All Right Reserved @website Name</div>
+      </div>
+
+     </footer>
+
+
+ <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
